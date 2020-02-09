@@ -1,0 +1,97 @@
+html {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: green;
+    margin: 0;
+}
+
+header {
+    height: 40px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+
+.logocontainer {
+    background-color: red;
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.logo {
+    background-color: blue;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.dot1 {
+}
+
+.menucontainer {
+    background-color: pink;
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+a:hover {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.MainContainer {
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 100%;
+}
+
+footer {
+    background-color: #57706e;
+    color: white;
+    padding: 60px 10% 0;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footercontainer {
+
+    width:33%;
+    float:left;
+    background-color:grey;
+}
