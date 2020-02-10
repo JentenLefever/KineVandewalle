@@ -11,34 +11,42 @@ body {
     margin: 0;
 }
 
+h4{
+    font-size: 20px;
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+
 header {
     height: 40px;
     background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 15px;
 }
 
 .logocontainer {
     background-color: red;
     height: 100%;
-    width: 40%;
+    width: 30%;
     float: left;
 }
 
 .logo {
     background-color: blue;
     height: 100%;
-    width: 25%;
     float: left;
+    margin-right: 5px;;
 }
 
-.dot1 {
+.logoimg{
+height: 100%;
+
 }
 
 .menucontainer {
     background-color: pink;
-    width: 60%;
+    width: 70%;
     height: 100%;
     float: left;
 }
@@ -73,20 +81,37 @@ a:hover {
 
 .MainContainer {
     background-color: white;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     min-height: 100%;
 }
 
 footer {
     background-color: #57706e;
     color: white;
-    padding: 60px 10% 0;
+    padding: 40px 15% 20px;
     overflow: hidden;
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+.logofooter
+{
+height: 40px;
+
+}
+
+.footerlogocontainer{
+
+   float: left; 
+   margin-right: 5px;
+}
+
+.sociallogo{
+    height: 25px;
+
 }
 
 .footercontainer {
