@@ -120,3 +120,19 @@ height: 40px;
     float:left;
     background-color:grey;
 }
+
+.introContainer{
+    background-color: aqua;
+}
+
+.verhaalContainer{
+    background-color: rebeccapurple;
+}
+
+.specialiteitenContainer{
+    background-color: brown;
+}
+
+.ContactContainer{
+    background-color: grey;
+}
