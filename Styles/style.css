@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Ek+Mukta:200);
 html {
     background-color: white;
     margin: 0;
@@ -29,10 +30,15 @@ h4{
 }
 
 header {
-    height: 40px;
+    height: 50px;
     background-color: white;
-    margin-top: 15px;
-   font-weight: bold;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .logocontainer {
@@ -43,10 +49,11 @@ header {
 }
 
 .logo {
-    background-color: blue;
-    height: 100%;
+    background-color: red;
+    height: 70%;
+    padding: 7px;
     float: left;
-    margin-right: 5px;;
+    margin-right: 5px;
 }
 
 .logoimg{
@@ -66,37 +73,46 @@ height: 100%;
     display: none;
 }
 
-ul {
+.menucontainer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+.menucontainer li {
     float: right;
 }
 
-    li a {
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-a:hover {
+li a {
     display: block;
-    color: grey;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menucontainer a:hover {
+    display: block;
+    opacity: 0.5;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     cursor: pointer;
 }
 
+.logocontainer a{
+    color: #000;
+}
+
+.logocontainer a:hover{
+    opacity: 0.25;
+}
+
 .MainContainer {
     background-color: white;
     min-height: 100%;
+    margin-top: 4rem;
 }
 
 footer {
@@ -165,33 +181,12 @@ height: 40px;
     footer{
         padding-left: 2%;
         padding-right: 2%;
-    }
-    .menucontainer{
+    } 
 
-        display: none;
-    }
-    
     header{
-
-        margin-left: 15px;
-        margin-right: 15px;
-       
+        padding-left: 2%;
+        padding-right: 2%;
     }
-
-    .HamburgerMenu{
-
-        display: block;
-        height: 100%;
-        float: right;
-    }
-    .logocontainer {
-       
-        
-        width: 100%;
-        
-    }
-
-
 }
 
 /* 767px:page mobile */
@@ -205,4 +200,18 @@ height: 40px;
     .footerlogocontainer{
         float: none;
     } 
+
+    .nav-desktop{
+        display: none;
+    }
 } 
+
+@media(min-width:768px){
+    .nav-mobile{
+        display: none;
+    }
+} 
+
+.active-desktop, .active-mobile{
+    opacity: 0.5;
+}
