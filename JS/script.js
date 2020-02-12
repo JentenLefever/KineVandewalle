@@ -9,3 +9,4 @@ function hideNav() {
     document.getElementById('MobileMenu-close').style.display = "none";
     document.getElementById('MobileMenu-open').style.display = "block";
 }
+
