@@ -99,7 +99,7 @@ footer {
     color: white;
     padding: 40px 15% 20px 15%;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     bottom: 0;
     right: 0;
     left: 0;
@@ -123,8 +123,7 @@ height: 40px;
 }
 
 .footercontainer {
-
-    width:23%;
+    width:33.33%;
     float:left;
     background-color:grey;
 }
@@ -144,3 +143,25 @@ height: 40px;
 .ContactContainer{
     background-color: grey;
 }
+
+/* 991px:page mobile */
+@media(max-width:991px){
+    .width70{
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+
+    footer{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+/* 767px:page mobile */
+@media(max-width:767px){
+    .footercontainer{
+        float: none;
+        width: 100%;
+    }
+} 
