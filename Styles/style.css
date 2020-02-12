@@ -163,5 +163,10 @@ height: 40px;
     .footercontainer{
         float: none;
         width: 100%;
+        text-align: center;
     }
+
+    .footerlogocontainer{
+        float: none;
+    }    
 } 
