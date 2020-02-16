@@ -5,6 +5,7 @@ html {
     padding: 0;
     height: 100%;
     font-family: 'Ubuntu', sans-serif;
+    
 }
 
 .fullwidth{
@@ -39,6 +40,7 @@ header {
     right: 0;
     padding-left: 15%;
     padding-right: 15%;
+    z-index: 10;
 }
 
 .logocontainer {
@@ -109,6 +111,39 @@ li a {
     opacity: 0.25;
 }
 
+.topcontent{
+    overflow: hidden;
+    position: relative;
+    padding-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.topvideo{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    height: 50%;
+    
+}
+
+.videocontent {
+    position: absolute;
+    top: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    vertical-align: middle;
+  }
+
+  .infotopcontent{
+    width: 50%;
+
+  }
+  
+ 
 .MainContainer {
     background-color: white;
     min-height: 100%;
@@ -204,14 +239,30 @@ height: 40px;
     .nav-desktop{
         display: none;
     }
+
+
+    .topcontent{
+        
+        width: 100%;
+        margin-left: 0;
+        
+    }
 } 
 
 @media(min-width:768px){
     .nav-mobile{
         display: none;
     }
+
+    
 } 
 
 .active-desktop, .active-mobile{
     opacity: 0.5;
 }
+
+
+
+
+
+
