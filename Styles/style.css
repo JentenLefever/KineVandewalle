@@ -142,7 +142,70 @@ li a {
     width: 50%;
 
   }
+
+
+  .ContentBlock1{
+      width: 100%;
+      overflow: hidden;
+      height: auto;
+      float: left;
+      
+  }
+
+  .split25{
+
+    width: 25%;
+    float: left;
+  }
+
+  .split33{
+
+    width: 33%;
+    float: left;
+  }
+
+   .split40{
+
+    width: 40%;
+    float: left;
+  }
+
+  .split50{
+
+    width: 50%;
+    float: left;
+  }
+
+
+  .split60{
+
+    width: 60%;
+    float: left;
+  }
+  .split66{
+
+    width: 66%;
+    float: left;
+  }
+
+  .split75{
+
+    width: 75%;
+    float: left;
+  }
   
+
+  .ContentBlockVideo
+  {
+  
+    width: 100% !important;
+    height: auto !important;
+    transition: 1s opacity;
+    z-index:-1;
+    float: right;
+
+
+  }
  
 .MainContainer {
     background-color: white;
@@ -205,8 +268,8 @@ height: 40px;
     background-color: grey;
 }
 
-/* 991px:page mobile */
-@media(max-width:991px){
+/* 1200px:page laptop */
+@media(max-width:1200px){
     .width70{
         width: 96%;
         margin-left: auto;
@@ -222,6 +285,18 @@ height: 40px;
         padding-left: 2%;
         padding-right: 2%;
     }
+
+    .topcontent{
+        overflow: hidden;
+        position: relative;
+        padding-top: 50px;
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    
+
+
 }
 
 /* 767px:page mobile */
@@ -247,6 +322,48 @@ height: 40px;
         margin-left: 0;
         
     }
+
+    .split25{
+
+        width: 100%;
+        float: left;
+      }
+    
+      .split33{
+    
+        width: 100%;
+        float: left;
+      }
+    
+       .split40{
+    
+        width: 100%;
+        float: left;
+      }
+    
+      .split50{
+    
+        width: 100%;
+        float: left;
+      }
+    
+    
+      .split60{
+    
+        width: 100%;
+        float: left;
+      }
+      .split66{
+    
+        width: 100%;
+        float: left;
+      }
+    
+      .split75{
+    
+        width: 100%;
+        float: left;
+      }
 } 
 
 @media(min-width:768px){
