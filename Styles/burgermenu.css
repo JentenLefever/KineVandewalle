@@ -271,6 +271,7 @@ body {
 .window .header #mobile-logo{
   height: 50px;
   width: 80%;
+  padding-left: 5%;
 }
 
 .logo-background{
