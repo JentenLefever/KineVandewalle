@@ -1,23 +1,32 @@
 
 .ContactContainer{
-float: left;
-width: 100%;
-background-color: #111;
-display: flex;
-padding-bottom: 30px;
-color: white;
+  float: left;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  padding-bottom: 30px;
+  color: white;
 }
 
   
   /* Begin Left Contact Page */
   .form-horizontal {
-    float: left;
+    float: left; 
     font-family: 'Lato';
     font-weight: 400;
     margin-left: 30px;
     margin-top: 40px;
     width: 45%;
-    margin-right: 5%;
+    margin-right: 5%;  
+    margin-bottom: 40px;
+  }
+
+  .form-horizontal h1{
+    padding-bottom: 42.5px;
+  }
+
+  #contact-form{
+    margin-top: 35px;
   }
   
   .form-control, textarea {
@@ -26,16 +35,13 @@ color: white;
     color: #fff;
     letter-spacing: 1px;
     margin-top: 15px;
+    padding: 0;
   }
 
-  .form-control {
-    margin-left:-12px;
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
+  .form-control {    
+    display: block;    
     /* line-height: 1.42857143; */
+    padding: 5px 0 5px 5px;
     color: #555;
     background-color: #fff;
     background-image: none;
@@ -55,13 +61,16 @@ color: white;
   .send-button {
     margin-top: 15px;
     height: 34px;
-    width: 100%;
+    width: 101.5%;
+    background-color: #555;
     transition: all .2s ease-in-out;
+    border: none;
+    border-radius: 4px;
   }
   
-  .button {
-    height: 34px;
-    transition: all .2s ease-in-out;
+  .send-button:hover {
+    opacity: 0.2;
+    color: white;
   }
   
   .send-text {
@@ -70,23 +79,18 @@ color: white;
     letter-spacing: 2px;
   }
 
-  .infoContact{
-
-
+  .infoContact{    
     float: left;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 0;
     margin-bottom: 50px;
   }
 
   .infoContact a{
-
-
-    color: white;
     text-decoration: unset;
     font-size: 20px;
     margin-top: 5px;
-    
+    color: white;
   }
   
 
@@ -112,30 +116,28 @@ float: left;
   }
   
   .form-horizontal {
-  
+    margin-top: 0;
+    margin-bottom: 0;
     width: 70%;
     margin-left: 15%;
     align-items: center;
     
   }
 
-  .adresContact {
-
-    display: none
+  .form-horizontal h1{
+    padding-bottom: 0;
+    margin-bottom: 2.5px;
   }
 
-  .halflineContact
-  {
-
-width: 50%;
-float: initial;
-
+  .halflineContact{
+  width: 50%;
+  float: initial;
   }
 
   .infoContact{
 
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
 }
