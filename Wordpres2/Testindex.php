@@ -1,3 +1,6 @@
+<?php /* Template Name: Testindex */ ?>
+
+
 <!DOCTYPE html>
 <html id="htmlpage">
 <head>

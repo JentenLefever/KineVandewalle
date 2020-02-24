@@ -1,79 +1,7 @@
-<!DOCTYPE html>
-<html id="htmlpage">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - bedrijf</title>
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-    <link href="Styles/style.css" rel="stylesheet" />
-    <link href="Styles/burgermenu.css" rel="stylesheet" />
-    <link href="Styles/Card.css" rel="stylesheet" />
-    <link href="Styles/Contact.css" rel="stylesheet" />
 
-    <script src="JS/script-burgermenu.js"></script>
-</head>
-<body>
-    <header class="nav-desktop">
-        <div class="logocontainer">
-            <a id="logo-desktop" href="index.html">
-                <div class="logo">
-                    <img src="Images/logo.svg" alt="Logo" class="logoimg">
-                </div>
-                <p class="logotext">NaamBedrijf</p>
-            </a>
-        </div>        
-        <div class="menucontainer">
-            <ul>
-                <li>
-                    <a>Contact</a>
-                </li>
+<?php get_header(); ?>
 
-                <li>
-                    <a>Info</a>
-                </li>
-                <li>
-                    <a class="active-desktop" href="index.html">Home</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <header class="nav-mobile">
-        <div class="window">
-            <div class="header">
-                <div id="mobile-logo" class="logocontainer">
-                    <a href="index.html">    
-                        <div class="logo">
-                            <img src="Images/logo.svg" alt="Logo" class="logoimg"> 
-                           
-                        </div>      
-                        <p   class="logotext">NaamBedrijf</p>                                          
-                    </a>
-                </div> 
-                <div class="burger-container">
-                    <div id="burger">
-                    <div class="bar topBar"></div>
-                    <div class="bar btmBar"></div>
-                    </div>
-                </div>              
-                <ul class="menu">                
-                    <li style="margin-top: 5.7rem;" class="menu-item">
-                        <a class="active-mobile" href="index.html">Home</a>
-                    </li>               
-                    <li class="menu-item">
-                        <a href="index.html">Info</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="index.html">Contact</a>
-                    </li>
-                </ul>                    
-          </div>
-    </header>
-
-
-
-
-    <div class="topcontent">
+<div class="topcontent">
     <video autoplay muted loop class="topvideo">
         <source src="Images/TopVideo.mp4" type="video/mp4">
     </video>
@@ -253,37 +181,6 @@
             <p>ContactContainer Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
         </div>
     </div>
-    <footer class="">
-        <div class="footercontainer">
-            <div class="footerlogocontainer">
-                <img src="Images/logo.svg" alt="Logo" class="logofooter">
-            </div>
-            <div class="footerinfocontainer">
-                <h4>naam bedrijf</h4>
-            </div>
-            <div class="socialsContainer">
-                <img src="Images/Facebook.png" alt="Logo" class="sociallogo">
-                <img src="Images/Instagram.png" alt="Logo" class="sociallogo">
-            </div>
-        </div>
-        <div class="footercontainer">
-            
-            <div class="adresfootercontainer">
-                <h4>Adres</h4>
-                <address>
-                    <p>kronkelstraat 67</p>
-                    <p>8793 Waregem</p>
-                    <p>Belgie</p>
-                </address>
-            </div>
-        </div>
-        <div class="footercontainer">
-            <div class="adresfootercontainer">
-                <h4>Contacteer ons</h4>
-                <p>info@lol.be</p>
-                <p>0499440404044</p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+
+
+    <?php get_footer(); ?>
