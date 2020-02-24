@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Ek+Mukta:200);
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One&display=swap');
 html {
-    background-color: white;
+    
     margin: 0;
     padding: 0;
     height: 100%;
@@ -20,7 +20,7 @@ html {
 
 body {
     width: 100%;
-    background-color: green;
+  
     margin: 0;
 }
 
@@ -44,14 +44,14 @@ header {
 }
 
 .logocontainer {
-    background-color: red;
+    background-color: white;
     height: 100%;
     width: 30%;
     float: left;
 }
 
 .logo {
-    background-color: red;
+    background-color: white;
     height: 70%;
     padding: 7px;
     float: left;
@@ -64,7 +64,6 @@ height: 100%;
 }
 
 .menucontainer {
-    background-color: pink;
     width: 70%;
     height: 100%;
     float: left;
@@ -128,7 +127,7 @@ li a {
     position: absolute;
     top: 50px;   
     color: #f1f1f1;
-    padding: 10% 0 0 10%; 
+    padding: 20% 0 0 10%; 
     vertical-align: middle;
     top: 0;
     left: 0;
@@ -228,6 +227,11 @@ height: 40px;
 {
 
    float: left; 
+   font-size: 25px;
+   margin-top: 8px;
+   font-family: 'Bowlby One';
+   font-style: italic;
+   color: #9a2620;
 }
 
 .footerlogocontainer{
