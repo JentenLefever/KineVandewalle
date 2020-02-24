@@ -112,35 +112,30 @@ li a {
 }
 
 .topcontent{
-    overflow: hidden;
     position: relative;
     padding-top: 50px;
     width: 70%;
-    margin-left: 15%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .topvideo{
     width: 100%;
-    text-align: center;
-    align-items: center;
-    height: 50%;
-    
+    filter: brightness(0.5);
 }
 
 .videocontent {
     position: absolute;
-    top: 50px;
-    background: rgba(0, 0, 0, 0.5);
+    top: 50px;   
     color: #f1f1f1;
-    height: 100%;
-    width: 100%;
-    padding: 10%;
+    padding: 10% 0 0 10%; 
     vertical-align: middle;
+    top: 0;
+    left: 0;
   }
 
   .infotopcontent{
     width: 50%;
-
   }
 
 
@@ -264,9 +259,7 @@ height: 40px;
     background-color: brown;
 }
 
-.ContactContainer{
-    background-color: grey;
-}
+
 
 /* 1200px:page laptop */
 @media(max-width:1200px){
