@@ -113,7 +113,7 @@ li a {
 
 .menucontainer a:hover {
     display: block;
-    opacity: 0.5;
+    opacity: 0.25;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -294,9 +294,13 @@ height: 40px;
 
 .footercontainer {
     width:33.33%;
-    float:left;
-    
+    float:left;    
 }
+
+.footercontainer h4{
+    font-style: italic;
+}
+
 address{
     float: left;
     width: 100%;
@@ -491,6 +495,7 @@ address p {
         margin-top: 1.4rem;
     }
 } 
+
 
 .active-desktop, .active-mobile{
     opacity: 0.5;
