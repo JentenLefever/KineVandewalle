@@ -494,6 +494,10 @@ address p {
     #street-footer{
         margin-top: 1.4rem;
     }
+
+    .lower-videocontent-mobile{
+        margin-top: 1rem;
+    }
 } 
 
 
