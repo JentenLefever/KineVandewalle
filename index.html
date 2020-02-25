@@ -11,10 +11,33 @@
     <link href="Styles/Card.css" rel="stylesheet" />
     <link href="Styles/Contact.css" rel="stylesheet" />
     <link href="Styles/button.css" rel="stylesheet" />
-
+    <link href="Styles/hoversidebar.css" rel="stylesheet" />
        <script src="JS/script-burgermenu.js"></script>
 </head>
 <body>
+
+    <ul class="contactSwitchFixed">
+        <li class="">
+            <a href="tel:+32491 52 53 09" class="">
+                <span class="icon">
+                    <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" class="">
+                        <path d="M9.022 13.656a16.832 16.832 0 0 0 7.322 7.322l2.445-2.445c.3-.3.744-.4 1.133-.266 1.245.41 2.59.633 3.967.633.611 0 1.111.5 1.111 1.111v3.878C25 24.5 24.5 25 23.889 25 13.456 25 5 16.544 5 6.111 5 5.5 5.5 5 6.111 5H10c.611 0 1.111.5 1.111 1.111 0 1.389.222 2.722.633 3.967.123.389.034.822-.277 1.133l-2.445 2.445z" class="icon__fill" fill-rule="nonzero"></path>
+                    </svg>
+                </span>      <span class="">+32&nbsp;491&nbsp;52&nbsp;53&nbsp;09</span>
+            </a>
+        </li>
+        <li class="">
+            <a href="mailto:info@profitt.be" class="">
+                <span class="icon">
+                    <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" class="">
+                        <path d="M23.8 6H6.2C4.99 6 4.011 7.013 4.011 8.25L4 21.75C4 22.988 4.99 24 6.2 24h17.6c1.21 0 2.2-1.012 2.2-2.25V8.25C26 7.013 25.01 6 23.8 6zm.44 4.93l-9.2 4.5-9.2-4.5v-1.8l9.2 4.5 9.2-4.5v1.8z" class="icon__fill" fill-rule="nonzero"></path>
+                    </svg>
+                </span>      <span class="">info@profitt.be</span>
+            </a>
+        </li>
+    </ul>
+
+
     <header class="nav-desktop">
         <div class="logocontainer">
             <a id="logo-desktop" href="index.html">
@@ -31,11 +54,19 @@
                 </li>
 
                 <li>
-                    <a href="Info.html">Info</a>
+                    <a href="CrossFitCenter.html">Crossfit Center</a>
                 </li>
+
                 <li>
-                    <a class="active-desktop" href="index.html">Home</a>
+                    <a href="GroupTraining.html">Group Training</a>
                 </li>
+
+                <li>
+                    <a href="PersonalTraining.html">Personal Training</a>
+                </li>
+                
+               
+               
             </ul>
         </div>
     </header>
@@ -57,19 +88,24 @@
                     <div class="bar btmBar"></div>
                     </div>
                 </div>              
-                <ul class="menu">                
+                <ul class="menu">    
+                                                    
                     <li style="margin-top: 5.7rem;" class="menu-item">
-                        <a class="active-mobile" href="index.html">Home</a>
+                        <a href="PersonalTraining.html">Personal Training</a>
                     </li>               
                     <li class="menu-item">
-                        <a href="Info.html">Info</a>
+                        <a href="GroupTraining.html">Group Training</a>
                     </li>
                     <li class="menu-item">
-                        <a href="Contact.html">Contact</a>
+                        <a href="CrossFitCenter.html">CrossFit Center</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="active-mobile" href="Contact.html">Contact</a>
                     </li>
                 </ul>                    
           </div>
     </header>
+
 
 
 
@@ -79,9 +115,8 @@
             <source src="Images/TopVideo.mp4" type="video/mp4">
         </video>
         <div class="videocontent">
-            <h1>Sport & health peformance</h1>
-            <p class="infotopcontent">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de stand</p>            
-            <button class="button">More info</button>
+            <h1>SPORT & HEALTH PEFORMANCE</h1>
+            <button class="button">Meer informatie +</button>
 
         </div>  
     </div>
@@ -89,90 +124,58 @@
     
     <div id="" class="MainContainer width70">
 
-            <div class="ContentBlock1"> 
-                <div class="split40">
-                    
-            <h1>ProFitt</h1>
-         <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de stand</p>
-         
-         <button>More info</button>
+       
 
-                </div>
-                <div class="split60">
-                        <video autoplay muted loop class="ContentBlockVideo">
-                                <source src="Images/TopVideo.mp4" type="video/mp4">
-                        </video>
-                </div>
-            </div>
+       
 
-            <div class="ContentBlock1"> 
-                
-                <div class="split60">
-                        <video autoplay muted loop class="ContentBlockVideo">
-                                <source src="Images/TopVideo.mp4" type="video/mp4">
-                        </video>
-                </div>
-
-                <div class="split40" style="text-align: right !important;">
-                    
-                    <h1>ProFitt</h1>
-                 <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de stand</p>
-                 
-                 <button>More info</button>
-        
-                        </div>
-            </div>
-
-            <div class="ContentBlock1"> 
-                
-                <div class="split50">
-                        <video autoplay muted loop class="ContentBlockVideo">
-                                <source src="Images/TopVideo.mp4" type="video/mp4">
-                        </video>
-                </div>
-
-                <div class="split50" style="text-align: right !important;">
-                    
-                    <h1>ProFitt</h1>
-                 <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de stand</p>
-                 
-                 <button>More info</button>
-        
-                        </div>
-            </div>
-
+            
 
 
         <div class="CardContainer">
                 <div class="card">
                         <div class="content">
-                          <h2 class="title">Mountain View</h2>
+                          <h2 class="title">Personal Training</h2>
                           <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
-                          <button class="btn">View Trips</button>
+                          <button class="button">Meer informatie</button>
                         </div>
                       </div>
                       <div class="card">
                         <div class="content">
-                          <h2 class="title">To The Beach</h2>
+                          <h2 class="title">Group Training</h2>
                           <p class="copy">Plan your next beach trip with these fabulous destinations</p>
-                          <button class="btn">View Trips</button>
+                          <button class="button">Meer informatie</button>
                         </div>
                       </div>
                       <div class="card">
                         <div class="content">
-                          <h2 class="title">Desert Destinations</h2>
+                          <h2 class="title">Crossfit Center</h2>
                           <p class="copy">It's the desert you've always dreamed of</p>
-                          <button class="btn">Book Now</button>
+                          <button class="button">Meer informatie</button>
                         </div>
                       </div>
-                      <div class="card">
-                        <div class="content">
-                          <h2 class="title">Explore The Galaxy</h2>
-                          <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-                          <button class="btn">Book Now</button>
-                        </div>
-                      </div>
+                     
         </div>
+
+
+
+        <div class="ContentBlock1"> 
+            <div class="split66" style="text-align: left !important;">
+                
+                <h2>Boost jouw nieuwe sport uitdaging...</h2>
+             <p>Bij ProFitt vindt iedereen een sportieve uitdaging om zijn maat. Met uitdagende groepslessen kan iedereen op een verantwoorde en een leuke manier sporten. Werk jij naar een specifiek doel? Dan helpt ProFitt ervoor te zorgen dat jij deze op een verantwoorde manier kan bereiken</p>
+             
+             <button class="button">More info</button>
+    
+                    </div>
+            <div class="split33 infoimg">
+                   
+            </div>
+
+           
+        </div>
+
+
+
 
 
         <div class="ContactContainer">
@@ -187,23 +190,15 @@
             
               ----------------->
               <div class="form-horizontal">
-                  <h1>Write Us</h1>
-                  <hr class="halflineContact">
-                             
-                  <div class="infoContact">
-                      
-                      <a href="mailto:email@example.com">email@bedrijf.com</a> <br>
-                      <a href="tel:123-456-7890">+32 499 46 18 24</a>
-                  </div>
+                <h3>Bezoek ons</h3>
+                <hr>
+                  
 
                   <div class="adresContact">
-                      <h5>Brugge</h5>
-                      <p>314Architectuur</p>
-                      <p>ezelstraat 12 </p>
-                      <p>8000 Brugge</p>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Hoogstraat%20106%20deerlijk&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;height:350px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:100%;}</style></div>
                   </div>
 
-                  <hr width="100%" style="float: left;">
+                  
                   
               </div>
 
@@ -218,6 +213,8 @@
 
             <form class="form-horizontal" role="form" method="post" action="contact.php">
         
+                <h3>Contacteer ons</h3>
+                <hr>
               <div class="form-group">
                   <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="">
               </div>
@@ -232,7 +229,7 @@
         
               <textarea class="form-control message" rows="10" placeholder="MESSAGE" name="message"></textarea>
         
-              <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">                
+              <button class="btn btn-primary send-button button" id="submit" type="submit" value="SEND">                
                 <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>       
               </button>
         
@@ -247,9 +244,7 @@
         <div class="ReviewContainer">
 
         </div>
-        <div class="ContactContainer">
-            <p>ContactContainer Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
-        </div>
+        
     </div>
     <footer class="">
         <div class="footercontainer">
@@ -260,14 +255,15 @@
                 <h4 class="logotext">PROFITT</h4>
             </div>
             <div class="socialsContainer">
-                <img src="Images/Facebook.png" alt="Logo" class="sociallogo">
-                <img src="Images/Instagram.png" alt="Logo" class="sociallogo">
+                <a href="https://www.facebook.com/profittbyarne/"><img src="Images/Facebook.svg" alt="Logo" class="sociallogo"></a>
+                <a href="https://www.instagram.com/profitt_by_arne/"><img src="Images/Instagram.svg" alt="Logo" class="sociallogo"></a>
             </div>
         </div>
         <div class="footercontainer">
             
             <div class="adresfootercontainer">
                 <h4>Adres</h4>
+                <hr style="width: 50%;float: left;">
                 <address>
                     <p>kronkelstraat 67</p>
                     <p>8793 Waregem</p>
@@ -278,8 +274,9 @@
         <div class="footercontainer">
             <div class="adresfootercontainer">
                 <h4>Contacteer ons</h4>
-                <p>info@lol.be</p>
-                <p>0499440404044</p>
+                <hr style="width: 50%;float: left;"> <br>
+                <a  class="contactinfo" href="mailto:info@profitt.be" target="_top">info@profitt.be</a>
+                <a class="contactinfo" href="tel:+32491 52 53 09">+32 491 52 53 09</a>
             </div>
         </div>
     </footer>

@@ -1,10 +1,10 @@
 .button {
     background: #9a2620;
-    border-radius: 50px;
     padding: 9px 40px;
     color: #fff;
     text-decoration: none;
     font-size: 15px;
+    border-width: 0;
     }
   
   /* Hover state animation applied here */
@@ -17,7 +17,7 @@
   .button:active {
     -webkit-animation: active 1200ms ease 1 alternate;
     animation: active 1200ms ease 1 alternate; 
-    background: #5F9BE0;
+    background: black;
   }
   .gray { background: #D2D2D2; }
   .gray:active { background: #b9b9b9; }
@@ -30,7 +30,7 @@
     100% {transform: scale(.92,.9);}
   }
   
-  @-keyframes active { 
+  @keyframes active { 
     0% {transform: scale(1,1);}
     90% {transform: scale(.9,.88);}
     100% {transform: scale(.92,.9);}

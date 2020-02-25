@@ -35,7 +35,7 @@
           align-items: flex-end;
   overflow: hidden;
   padding: 1rem;
-  width: 25%;
+  width: 33%;
   text-align: center;
   color: whitesmoke;
   background-color: whitesmoke;
@@ -95,13 +95,17 @@
   transition: transform calc(var(--d) * 2) var(--e), -webkit-transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(../Images/Personaltrainer.jpg);
+  background-position: center;
 }
 .card:nth-child(2):before {
-  background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(../Images/GroupTraniner.jpg);
+  background-position: center;
+
 }
 .card:nth-child(3):before {
-  background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(../Images/CrossfittCenter.jpg);
+  background-position: center;
 }
 .card:nth-child(4):before {
   background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
@@ -150,14 +154,14 @@
   letter-spacing: 0.025rem;
   text-transform: uppercase;
   color: white;
-  background-color: black;
+  background-color: #9a2620;
   border: none;
 }
 .btn:hover {
   background-color: #0d0d0d;
 }
 .btn:focus {
-  outline: 1px dashed yellow;
+  outline: 0.5px  white;
   outline-offset: 3px;
 }
 
@@ -179,6 +183,7 @@
     transition: opacity var(--d) var(--e), -webkit-transform var(--d) var(--e);
     transition: transform var(--d) var(--e), opacity var(--d) var(--e);
     transition: transform var(--d) var(--e), opacity var(--d) var(--e), -webkit-transform var(--d) var(--e);
+    
   }
 
   .card:hover,

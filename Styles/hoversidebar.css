@@ -1,0 +1,56 @@
+@media only screen and (max-width: 860px){
+.contactSwitchFixed {
+    right: -17rem;
+    display: none !important;
+}
+}
+
+.contactSwitchFixed {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: -10rem;
+    top: 50%;
+    transition: right 0.3s ease;
+    transform: right(-50%);
+    display: block;
+    z-index: 501;
+}
+
+.contactSwitchFixed li {
+    background-color: #111;
+    list-style-type: none;
+}
+
+.contactSwitchFixed a {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.contactSwitchFixed .icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.contactSwitchFixed .icon svg {
+    height: 100%;
+}
+
+.contactSwitchFixed .icon svg path {
+    fill: white;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.contactSwitchFixed span {
+    margin-right: 16px;
+}
+
+.contactSwitchFixed:hover {
+    right: 0px;
+}

@@ -8,6 +8,21 @@ html {
     
 }
 
+h1{
+
+    font-size: 50px;
+
+
+}
+
+h3{
+    font-size: 30px;
+
+}
+h4{
+    margin-bottom: 5px;
+}
+
 .fullwidth{
     width: 100%;
 }
@@ -91,6 +106,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
+    
 }
 
 .menucontainer a:hover {
@@ -116,6 +133,7 @@ li a {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .topvideo{
@@ -125,10 +143,12 @@ li a {
 
 .videocontent {
     position: absolute;
-    top: 50px;   
+    top: 50px;
+    width: 70%;
     color: #f1f1f1;
-    padding: 20% 0 0 10%; 
+    padding: 20% 0 0 10%;
     vertical-align: middle;
+    /* text-align: center; */
     top: 0;
     left: 0;
   }
@@ -137,12 +157,20 @@ li a {
     width: 50%;
   }
 
+  .infoimg{
+    height: 300px;
+    background-image: url(../Images/infopicture.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 7px;
+  }
 
   .ContentBlock1{
       width: 100%;
       overflow: hidden;
       height: auto;
       float: left;
+      margin-top: 3rem;
       
   }
 
@@ -156,6 +184,12 @@ li a {
 
     width: 33%;
     float: left;
+    
+  }
+
+  .split66 p{
+text-align: justify;
+    width: 80%;
   }
 
    .split40{
@@ -169,6 +203,7 @@ li a {
     width: 50%;
     float: left;
   }
+
 
 
   .split60{
@@ -204,11 +239,11 @@ li a {
 .MainContainer {
     background-color: white;
     min-height: 100%;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 footer {
-    background-color: #57706e;
+    background-color: #111;
     color: white;
     padding: 40px 15% 20px 15%;
     overflow: hidden;
@@ -233,7 +268,10 @@ height: 40px;
    font-style: italic;
    color: #9a2620;
 }
+.footerinfocontainer{
 
+    display: flex;
+}
 .footerlogocontainer{
 
    float: left; 
@@ -248,7 +286,15 @@ height: 40px;
 .footercontainer {
     width:33.33%;
     float:left;
-    background-color:grey;
+    
+}
+address{
+    float: left;
+    width: 100%;
+    margin:0;
+}
+address p {
+    margin:0;
 }
 
 .introContainer{
@@ -263,6 +309,14 @@ height: 40px;
     background-color: brown;
 }
 
+
+.contactinfo{
+
+    float: left;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
 
 
 /* 1200px:page laptop */
@@ -297,7 +351,7 @@ height: 40px;
 }
 
 /* 767px:page mobile */
-@media(max-width:767px){
+@media(max-width:850px){
     .footercontainer{
         float: none;
         width: 100%;
@@ -363,7 +417,7 @@ height: 40px;
       }
 } 
 
-@media(min-width:768px){
+@media(min-width:850px){
     .nav-mobile{
         display: none;
     }
