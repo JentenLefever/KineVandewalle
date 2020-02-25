@@ -8,8 +8,6 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-
-  
   /* Begin Left Contact Page */
   .form-horizontal {
     float: left; 
@@ -113,7 +111,7 @@ float: left;
   }
   
   /* 767px:page mobile */
-@media(max-width:767px){
+@media(max-width:850px){
   .ContactContainer{
     display: block;
     text-align: center;
@@ -145,3 +143,5 @@ float: left;
   }
 
 }
+
+

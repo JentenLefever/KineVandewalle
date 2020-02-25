@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Ek+Mukta:200);
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One&display=swap');
 html {
     
@@ -170,8 +171,7 @@ li a {
       overflow: hidden;
       height: auto;
       float: left;
-      margin-top: 3rem;
-      
+      margin-top: 3rem;      
   }
 
   .split25{
@@ -253,12 +253,21 @@ footer {
     left: 0;
 }
 
+.footer-underline{
+    width: 50%;
+    float: left;
+}
+
 .logofooter
 {
 height: 40px;
-
 }
-.logotext
+
+#street-footer{
+    margin-top: 0.3rem;
+}
+
+.logotext, .logotext-footer
 {
 
    float: left; 
@@ -350,6 +359,12 @@ address p {
 
 }
 
+@media(min-width:851px){
+    .nav-mobile{
+        display: none;
+    }
+}
+
 /* 767px:page mobile */
 @media(max-width:850px){
     .footercontainer{
@@ -360,6 +375,7 @@ address p {
 
     .footerlogocontainer{
         float: none;
+        margin-right: 0;
     } 
 
     .nav-desktop{
@@ -378,63 +394,104 @@ address p {
 
         width: 100%;
         float: left;
-      }
+    }
     
-      .split33{
-    
-        width: 100%;
-        float: left;
-      }
-    
-       .split40{
-    
-        width: 100%;
-        float: left;
-      }
-    
-      .split50{
-    
-        width: 100%;
-        float: left;
-      }
-    
-    
-      .split60{
-    
-        width: 100%;
-        float: left;
-      }
-      .split66{
-    
-        width: 100%;
-        float: left;
-      }
-    
-      .split75{
-    
-        width: 100%;
-        float: left;
-      }
+    .split33{
 
-      .infoimg{
-          margin-left: 0;
-      }
-} 
+    width: 100%;
+    float: left;
+    }
+    
+    .split40{
 
-@media(min-width:850px){
-    .nav-mobile{
-        display: none;
+    width: 100%;
+    float: left;
+    }
+    
+    .split50{
+
+    width: 100%;
+    float: left;
+    }    
+
+    .split60{
+
+    width: 100%;
+    float: left;
+    }
+    .split66{
+
+    width: 100%;
+    float: left;
+    }
+    
+    .split75{
+
+    width: 100%;
+    float: left;
+    }
+
+    .infoimg{
+        margin-left: 0;
+    }
+      
+    .videocontent{
+        text-align: center;
+        padding-left: 15%;
+        padding-top: 30%;
+    }
+
+    .videocontent h1{
+        margin: 0;
+        font-size: 2rem;
+    }
+    
+    .split66{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 1rem;
+    }
+
+    .split66 h2{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .split66 p{
+        width: 100%;
+    }
+
+    .split66 button{
+        width: 50%;
+        margin-left: 25%;
+    }       
+
+    .logotext-footer{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+
+    .footer-underline{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;    
     }
 
     
+    #contact-us-text{
+        margin-top: 8rem;
+    }
+
+    #adres-text{
+        margin-top: 2rem;
+    }    
+
+    #street-footer{
+        margin-top: 1.4rem;
+    }
 } 
 
 .active-desktop, .active-mobile{
     opacity: 0.5;
 }
-
-
-
-
-
-

@@ -34,7 +34,7 @@ body {
   position: absolute;
   right: 0;
   height: 50px;
-  width: 50px;
+  width: 90px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
@@ -148,12 +148,12 @@ body {
   display: block;
   position: relative;
   color: 9a2620;
-  font-family: 'Bowlby One';
-  font-weight: 100;
+  font-family: 'Ubuntu', sans-serif;
+ 
   text-decoration: none;
   font-size: 22px;
   line-height: 2.35;
-  font-weight: 200;
+  font-weight: bold;
   width: 100%;
 }
 .window .header.menu-opened {
