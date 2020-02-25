@@ -1,0 +1,44 @@
+#GoodReviews{
+    height: 20rem;
+    width: 100%;
+    float: left;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#GoodReviews h2{
+    text-align: center;
+}
+
+.GoodReview{
+    width: 24%;
+    height: 100%;
+    background-color: gray;
+    margin-right: 0.3%;
+    margin-left: 0.3%;
+    display: inline-block;
+}
+
+#GoodReviews .GoodReview:last-child{
+    margin-right: 0;
+}
+
+.picture-review{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1)
+}
+
+.text-review{
+    height: 85%;
+    width: 90%;
+    margin: auto;
+    margin-top: 20%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid red;
+}
