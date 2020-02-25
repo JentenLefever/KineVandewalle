@@ -162,7 +162,7 @@ li a {
     background-image: url(../Images/infopicture.jpg);
     background-position: center;
     background-size: cover;
-    margin-left: 7px;
+    margin-left: 1%;
   }
 
   .ContentBlock1{
@@ -414,6 +414,10 @@ address p {
     
         width: 100%;
         float: left;
+      }
+
+      .infoimg{
+          margin-left: 0;
       }
 } 
 
