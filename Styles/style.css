@@ -134,6 +134,8 @@ li a {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    height: 500px;
+    overflow: hidden;
     
 }
 
@@ -145,9 +147,9 @@ li a {
 .videocontent {
     position: absolute;
     top: 50px;
-    width: 70%;
+    width: 60%;
     color: #f1f1f1;
-    padding: 20% 0 0 10%;
+    padding: 15% 0 0 10%;
     vertical-align: middle;
     /* text-align: center; */
     top: 0;
@@ -171,7 +173,7 @@ li a {
       overflow: hidden;
       height: auto;
       float: left;
-      margin-top: 3rem;      
+      margin-top: 4rem;      
   }
 
   .split25{
@@ -239,7 +241,7 @@ text-align: justify;
 .MainContainer {
     background-color: white;
     min-height: 100%;
-    margin-top: 3rem;
+   
 }
 
 footer {
@@ -264,7 +266,7 @@ height: 40px;
 }
 
 #street-footer{
-    margin-top: 0.3rem;
+    margin-top: 0.4rem;
 }
 
 .logotext, .logotext-footer
@@ -358,7 +360,10 @@ address p {
         margin-left: 2%;
     }
 
-    
+    .topcontent{
+
+        height: 500px;
+    }
 
 
 }
@@ -393,7 +398,13 @@ address p {
         margin-left: 0;
         
     }
+    .MainContainer{
 
+        margin-top: 0;
+    }
+ .width70{
+     width: 100%;
+ }
     .split25{
 
         width: 100%;
@@ -441,8 +452,8 @@ address p {
       
     .videocontent{
         text-align: center;
-        padding-left: 15%;
-        padding-top: 30%;
+        padding-left: 20%;
+        padding-top: 20%;
     }
 
     .videocontent h1{
@@ -462,7 +473,8 @@ address p {
     }
 
     .split66 p{
-        width: 100%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .split66 button{
@@ -497,6 +509,11 @@ address p {
 
     .lower-videocontent-mobile{
         margin-top: 1rem;
+    }
+
+    .topcontent{
+
+        height: 250px;
     }
 } 
 

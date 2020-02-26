@@ -1,9 +1,10 @@
 #GoodReviews{
-    height: 20rem;
+    height: auto;
     width: 100%;
     float: left;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 4rem;
+   
+    
 }
 
 #GoodReviews h2{
@@ -11,12 +12,20 @@
 }
 
 .GoodReview{
-    width: 24%;
+    width: 32.3%;
     height: 100%;
-    background-color: gray;
+    
     margin-right: 0.3%;
-    margin-left: 0.3%;
+    margin-left: 1.2%;
     display: inline-block;
+    float: left;
+    display: flex;
+    position: relative;
+}
+
+.GoodReviewleft{
+    margin-left: 0% !important;
+
 }
 
 #GoodReviews .GoodReview:last-child{
@@ -24,21 +33,91 @@
 }
 
 .picture-review{
-    width: 6rem;
-    height: 6rem;
+    overflow: hidden;
+    width: 25%;
+    height: 7vw;
     border-radius: 50%;
-    background-color: black;
+
     position: absolute;
     align-items: center;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1)
-}
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+    margin-left: 37.5%;
+    top: 15px;}
+    
+    .picture-review img{
+        
+        width: 100%;
+        margin-top: -6px;
+    }
 
 .text-review{
     height: 85%;
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 20%;
-    background-color: white;
-    border-radius: 10px;
-    border: 1px solid red;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.caption{
+
+    color: #9a2620;
+    font-size: 100px;
+    margin-top: 25px;
+}
+
+.captiontext{
+
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -80px
+}
+
+.captionname{
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+/* 1200px:page laptop */
+@media(min-width:1200px){
+
+    .picture-review{
+       
+        height: 5.3vw;
+        
+    }
+
+}
+
+
+.picture-review:nth-child(2) {
+    background-color: red;
+  }
+
+
+  /* 767px:page mobile */
+@media(max-width:850px){
+
+.GoodReview{
+    width: 49%;
+    
+}
+
+.hiddenmobile{
+
+    display: none;
+}
+.picture-review{
+       
+    height: 9vw;
+    
+}
+
+#GoodReviews{
+
+    width: 80%;
+    margin-left: 10%;
+}
 }

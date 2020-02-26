@@ -9,7 +9,7 @@
     <link href="Styles/style.css" rel="stylesheet" />
     <link href="Styles/burgermenu.css" rel="stylesheet" />
     <link href="Styles/Card.css" rel="stylesheet" />
-    <link href="Styles/Contact.css" rel="stylesheet" />
+    <link href="Styles/contact.css" rel="stylesheet" />
     <link href="Styles/button.css" rel="stylesheet" />
     <link href="Styles/hoversidebar.css" rel="stylesheet" />
     <link href="Styles/GoodReviews.css" rel="stylesheet">
@@ -51,7 +51,7 @@
         <div class="menucontainer">
             <ul>
                 <li>
-                    <a href="Contact.html">Contact</a>
+                    <a href="Prijzen.html">Prijzen</a>
                 </li>
 
                 <li>
@@ -101,7 +101,7 @@
                         <a href="CrossFitCenter.html">CrossFit Center</a>
                     </li>
                     <li class="menu-item">
-                        <a href="Contact.html">Contact</a>
+                        <a href="Prijzen.html">Prijzen</a>
                     </li>
                 </ul>                    
           </div>
@@ -117,13 +117,13 @@
         </video>
         <div class="videocontent">
             <h1>SPORT & HEALTH PEFORMANCE</h1>
-            <button id="Button-video" class="button">Meer informatie +</button>
+            <button id="Button-video" class="button" onclick="document.getElementById('MainContainer').scrollIntoView({behavior: 'smooth'});">Meer informatie +</button>
 
         </div>  
     </div>
 
     
-    <div id="" class="MainContainer width70">
+    <div id="MainContainer" class="MainContainer width70">
 
        
 
@@ -133,7 +133,7 @@
 
 
         <div class="CardContainer">
-                <div class="card">
+                <div class="card" id="CardContainer">
                         <div class="content">
                           <h2 class="title">Personal Training</h2>
                           <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
@@ -168,7 +168,7 @@
              <button class="button">More info</button>
     
                     </div>
-            <div class="split33 infoimg">
+            <div class="split33 infoimg hiddenmobile">
                    
             </div>
 
@@ -176,39 +176,65 @@
         </div>
 
         <div id="GoodReviews">
-            <h2>Good Reviews</h2>
-            <div class="GoodReview">
+        
+            <div class="GoodReview GoodReviewleft">
                 <div class="picture-review">
-
+                    <img src="Images/peron1.jpg">
                 </div>
                 <div class="text-review">
-
+                    <div class="caption">
+                    <span >"</span>
+                </div>
+                <div class="captiontext">
+                    <p>bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door</p>
+                </div>
+                <div class="captionname">
+                    <p>Lefever Jenten</p>
+                </div>
+                <div class="captioncourse">
+                    <p>Personal Training</p>
+                </div>
                 </div>
             </div>
             <div class="GoodReview">
                 <div class="picture-review">
-
+                    <img src="Images/person2.jpg">
                 </div>
                 <div class="text-review">
-
+                    <div class="caption">
+                        <span >"</span>
+                    </div>
+                    <div class="captiontext">
+                        <p>bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door</p>
+                    </div>
+                    <div class="captionname">
+                        <p>Lefever Jenten</p>
+                    </div>
+                    <div class="captioncourse">
+                        <p>Personal Training</p>
+                    </div>
                 </div>
             </div>
-            <div class="GoodReview">
+            <div class="GoodReview hiddenmobile">
                 <div class="picture-review">
-
+                    <img src="Images/person3.jpg">
                 </div>
                 <div class="text-review">
-
+                    <div class="caption">
+                        <span >"</span>
+                    </div>
+                    <div class="captiontext">
+                        <p>bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door</p>
+                    </div>
+                    <div class="captionname">
+                        <p>Lefever Jenten</p>
+                    </div>
+                    <div class="captioncourse">
+                        <p>Personal Training</p>
+                    </div>
                 </div>
             </div>
-            <div class="GoodReview">
-                <div class="picture-review">
-
-                </div>
-                <div class="text-review">
-
-                </div>
-            </div>
+            
         </div>
 
         <div class="ContactContainer">
@@ -219,7 +245,7 @@
                       
             <!---------------- 
         
-              CONTACT PAGE LEFT 
+              Prijzen PAGE LEFT 
             
               ----------------->
               <div class="form-horizontal">
@@ -247,12 +273,12 @@
 
                <!---------------- 
         
-              CONTACT PAGE RIGHT 
+              Prijzen PAGE RIGHT 
             
               ----------------->
         
 
-            <form class="form-horizontal" role="form" method="post" action="contact.php">
+            <form class="form-horizontal" role="form" method="post" action="Prijzen.php">
         
                 <h3>Contacteer ons</h3>
                 <hr>
@@ -314,7 +340,7 @@
         </div>
         <div class="footercontainer">
             <div class="adresfootercontainer">
-                <h4 id="contact-us-text">Contacteer ons</h4>
+                <h4 id="Prijzen-us-text">Contacteer ons</h4>
                 <hr class="footer-underline"> <br>
                 <a  class="contactinfo" href="mailto:info@profitt.be" target="_top">info@profitt.be</a>
                 <a class="contactinfo" href="tel:+32491 52 53 09">+32 491 52 53 09</a>

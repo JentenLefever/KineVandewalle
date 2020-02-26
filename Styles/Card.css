@@ -5,6 +5,7 @@
     
     margin: 0 auto;
    float: left;
+   margin-top: 4rem;
 
 }
 .page-content {
@@ -40,15 +41,16 @@
   color: whitesmoke;
   background-color: whitesmoke;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
 }
-@media (min-width: 767px) {
+@media (min-width: 850px) {
   .card {
     height: 350px;
   }
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 850px) {
     .CardContainer{
         display: block;
         
@@ -93,6 +95,7 @@
   transition: -webkit-transform calc(var(--d) * 2) var(--e);
   transition: transform calc(var(--d) * 2) var(--e);
   transition: transform calc(var(--d) * 2) var(--e), -webkit-transform calc(var(--d) * 2) var(--e);
+  transition: all 0.5s;
 }
 .card:nth-child(1):before {
   background-image: url(../Images/Personaltrainer.jpg);
@@ -127,13 +130,14 @@
   transition: transform var(--d) var(--e);
   transition: transform var(--d) var(--e), -webkit-transform var(--d) var(--e);
   z-index: 1;
+  transition: all 0.5s;
 }
 .content > * + * {
   margin-top: 1rem;
 }
 
 .title {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -165,7 +169,7 @@
   outline-offset: 3px;
 }
 
-@media (hover: hover) and (min-width: 767px) {
+@media (hover: hover) and (min-width: 850px) {
   .card:after {
     -webkit-transform: translateY(0);
             transform: translateY(0);
